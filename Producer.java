@@ -1,6 +1,7 @@
 class Producer {
 
     private final Broker broker;
+    private final String producerId;
 
     public Producer(Broker broker) {
         this.broker = broker;
