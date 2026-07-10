@@ -9,6 +9,6 @@ class Producer {
     }
 
     public void send(String topic, String message) {
-        broker.publish(topic, message);
+        broker.publish(topic, message,producerId);
     }
 }
