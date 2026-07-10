@@ -4,6 +4,7 @@ class Producer {
     private final String producerId;
 
     public Producer(String producerId,Broker broker) {
+        this.producerId = producerId;
         this.broker = broker;
     }
 
