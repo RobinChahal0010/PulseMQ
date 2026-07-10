@@ -11,7 +11,7 @@ class Broker {
 System.out.println("[TOPIC CREATED] " + topicName);    }
 
     // PUBLISH MESSAGE
-    public void publish(String topic, String content) {
+    public void publish(String topic, String content,String producerId) {
 
         BlockingQueue<Message> queue = topics.get(topic);
 
