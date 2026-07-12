@@ -9,7 +9,7 @@ class Message {
     private final long offset;
     private final String producerId;
 
-    public Message(String topic, String content,String producerId) {
+    public Message(long offset,String topic, String content,String producerId) {
         this.topic = topic;
         this.content = content;
         this.timestamp = System.currentTimeMillis();
