@@ -7,7 +7,7 @@ class Message {
     private final String content;
     private final long timestamp;
 
-    public Message(String topic, String content) {
+    public Message(String topic, String content,String producerId) {
         this.topic = topic;
         this.content = content;
         this.timestamp = System.currentTimeMillis();
