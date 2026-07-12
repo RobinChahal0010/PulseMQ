@@ -7,6 +7,7 @@ class Message {
     private final String content;
     private final long timestamp;
     private final long offset;
+    private final String producerId;
 
     public Message(String topic, String content,String producerId) {
         this.topic = topic;
