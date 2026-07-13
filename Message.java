@@ -14,6 +14,8 @@ class Message {
         this.content = content;
         this.timestamp = System.currentTimeMillis();
         this.producerId = producerId;
+        this.offset = offset;
+        
     }
 
     public String getTopic() {
