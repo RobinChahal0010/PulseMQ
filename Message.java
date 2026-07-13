@@ -13,6 +13,7 @@ class Message {
         this.topic = topic;
         this.content = content;
         this.timestamp = System.currentTimeMillis();
+        this.producerId = producerId;
     }
 
     public String getTopic() {
