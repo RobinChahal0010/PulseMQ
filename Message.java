@@ -17,7 +17,10 @@ class Message {
         this.offset = offset;
         
     }
-    public long getOffset()
+    public long getOffset(){
+    return offset;
+}
+    
 
     public String getTopic() {
         return topic;
