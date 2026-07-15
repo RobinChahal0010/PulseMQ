@@ -36,5 +36,12 @@ class Message {
 
     @Override
     public String toString() {
-        return String.format
+        return String.format(
+        "[Offset=%d] [Topic=%s] [Producer=%s] %s | %d",
+        offset,
+        topic,
+        producerId,
+        content,
+        timestamp
+    );
 }
