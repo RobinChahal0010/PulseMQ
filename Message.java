@@ -36,5 +36,5 @@ class Message {
 
     @Override
     public String toString() {
-        return 
+        return String.format
 }
