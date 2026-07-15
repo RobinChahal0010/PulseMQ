@@ -36,8 +36,5 @@ class Message {
 
     @Override
     public String toString() {
-        return "[" + topic.toUpperCase() + "] "
-                + content
-                + " | Time: " + timestamp;
-    }
+        return 
 }
